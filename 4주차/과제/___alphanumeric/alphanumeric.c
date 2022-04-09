@@ -23,10 +23,13 @@ int CheckAlphanumeric(char* shellcode, unsigned int len){
             ('A' <= shellcode[i] && shellcode[i] <= 'Z') ||
             ('a' <= shellcode[i] && shellcode[i] <= 'z')
         ){
-            return 1;
+            continue;
+        }
+        else{
+            return 0;
         }
     }
-    return 0;
+    return 1;
 }
 
 int main(){
