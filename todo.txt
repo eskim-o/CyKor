@@ -1,8 +1,0 @@
-1. LOB 14~20                                    // 7개
-2. basic_rtl_1                                  // 1개
-3. shellcode_x64                                // 1개
-4. Load_of_RTL (gremlin, cobolt, goblin, orc)   // 4개
-
-+ 예제
-+ problem3, 4
-+ Dreamhack shell_basic, ssp_000, out_of_bound
