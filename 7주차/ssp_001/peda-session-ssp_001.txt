@@ -1,2 +1,2 @@
-break *0x0804878b
+break *main
 
